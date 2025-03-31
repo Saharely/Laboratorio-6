@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D.Va</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="paginas.css"> <!-- Enlace al archivo de estilos -->
+</head>
+<body>
+    <!-- Barra de navegación (Bootstrap) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagina1.html">Página 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagina2.html">Página 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="pagina3.html">Página 3</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido -->
+    <div class="container mt-4">
+        <h1>D.Va</h1>
+
+        <!-- Tarjetas (Bootstrap) -->
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="imagenes/dva_01.jpg">
+                    <div class="card-body">
+                        <p class="card-text">D.Va es una ex campeona de videojuegos que se convirtió en una piloto de mecha para defender su ciudad natal, Busan, de amenazas. Su habilidad para pilotar una enorme máquina de combate la convierte en una de las mejores heroínas de Overwatch.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="imagenes/dva_02.jpg">
+                    <div class="card-body">
+                        <p class="card-text">Su habilidad principal es la D.Va Mech, un mecha que utiliza para absorber daño y controlar el campo de batalla. En su mech, D.Va puede disparar con poderosos cañones y usar la habilidad de autodestrucción para infligir grandes cantidades de daño.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="imagenes/dva_03.jpg">
+                    <div class="card-body">
+                        <p class="card-text">D.Va tiene una personalidad audaz y confiada, y es conocida por su amor por los videojuegos y las redes sociales. Su habilidad definitiva, "Autodestrucción", puede destruir enemigos cercanos y cambiar el curso de la batalla en el momento más crítico.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Formulario sin Bootstrap (CSS normal) -->
+        <div class="mt-4 p-4 bg-light rounded">
+            <h4>¿Cuál es tu tanque favorito?</h4>
+            <form>
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="favorito" placeholder="Ejemplo: D.Va">
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
